@@ -1,6 +1,10 @@
 # ep-info
 Show XP/Hour and other details
 
+Put the "S_RP_SKILL_POLISHING_EXP_INFO.1.def" file into your tera-proxy\node_modules\tera-data\protocol\ folder.
+
+Get the Opcodes from https://github.com/TerableCoder/Tera-NA-Opcodes
+
 XP_Info revamped for EP https://github.com/TerableCoder/xp-info
 
 ## Commands
