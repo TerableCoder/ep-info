@@ -1,7 +1,7 @@
 'use strict'
 String.prototype.clr = function (hexColor){ return `<font color='#${hexColor}'>${this}</font>` };
 
-module.exports = function EpInfo(mod){
+module.exports = function SAInfo(mod){
     let xp = [],
     startTime,
     playerExp,
@@ -13,7 +13,7 @@ module.exports = function EpInfo(mod){
         playerExp = event;
         xp.push({currentEP: Number(event.epExpTotal), epLevelLow: Number(event.epLevelLow), time: Date.now()});
         if(mod.settings.showMessage){
-            mod.command.message("EP/Hour: " + formatXp(xpPerHour()).toString().clr("00FFFF"));
+            mod.command.message("SA/Hour: " + formatXp(xpPerHour()).toString().clr("00FFFF"));
         }
     })
 
@@ -94,7 +94,7 @@ module.exports = function EpInfo(mod){
         resetMod();
 	})
     
-    mod.command.add(['epi', 'epinfo'], (arg) => {
+    mod.command.add(['sa', 'sainfo'], (arg) => {
         if(arg) arg = arg.toLowerCase();
         switch(arg){
             case "r":
@@ -134,9 +134,9 @@ module.exports = function EpInfo(mod){
 				return;
         }
         
-        mod.command.message("EP/Hour: ".clr("FDD017") + formatXp(xpPerHour()).toString().clr("00FFFF"));
-        mod.command.message("EP gained: ".clr("FDD017") + formatXp(getTotalXp().epGained).clr("00FFFF"));
-        mod.command.message("EP levels gained: ".clr("FDD017") + getTotalXp().epLevelsGained.toString().clr("00FFFF"));
+        mod.command.message("SA/Hour: ".clr("FDD017") + formatXp(xpPerHour()).toString().clr("00FFFF"));
+        mod.command.message("SA gained: ".clr("FDD017") + formatXp(getTotalXp().epGained).clr("00FFFF"));
+        mod.command.message("SA levels gained: ".clr("FDD017") + getTotalXp().epLevelsGained.toString().clr("00FFFF"));
         
         if(startTime - (Date.now() - 3600000) < 0){
             mod.command.message("Total Avg: ".clr("FDD017") + formatXp(getTotalXp().epGained / ((Date.now() - startTime) / 3600000)).clr("00FFFF"));
@@ -145,7 +145,7 @@ module.exports = function EpInfo(mod){
         mod.command.message("Session playtime: ".clr("FDD017") + msToTime(Date.now() - startTime).clr("56B4E9"));     
         if(playerExp){
             let remainingXp = Number(playerExp.epLevelUp - playerExp.epExpTotal);
-            mod.command.message("Remaining EP: ".clr("FDD017") + formatXp(remainingXp).clr("00FFFF"));
+            mod.command.message("Remaining SA: ".clr("FDD017") + formatXp(remainingXp).clr("00FFFF"));
             mod.command.message("ETA until Level: ".clr("FDD017") + msToTime(remainingXp / xpPerHour() * 3600000).clr("56B4E9"));
         }
     });

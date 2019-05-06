@@ -1,31 +1,31 @@
-# ep-info
-Show XP/Hour and other details
+# sa-info
+Shows SA EXP/Hour and other details
 
 Put the "S_RP_SKILL_POLISHING_EXP_INFO.1.def" file into your tera-proxy\node_modules\tera-data\protocol\ folder.
 
 Get the Opcodes from https://github.com/TerableCoder/Tera-NA-Opcodes
 
-XP_Info revamped for EP https://github.com/TerableCoder/xp-info
+XP_Info revamped for SA https://github.com/TerableCoder/xp-info
 
 ## Commands
-### `epi`
-- Output EP information
-### `epi [on/off]`
+### `sa`
+- Output SA information
+### `sa [on/off]`
 - Enable/disable module
-### `epi [r/res/reset/restart]`
+### `sa [r/res/reset/restart]`
 - Reset current session's progress
-### `epi [sm/showmessage]`
+### `sa [sm/showmessage]`
 - Toggle Show Message
-### `epi [su/shortunits]`
+### `sa [su/shortunits]`
 - Toggle Short Units
-### `epi [cs/commaseparators]`
+### `sa [cs/commaseparators]`
 - Toggle Comma Separators
 
 ## Config
 ```
 enabled (Start module on launch)
-showMessage (Show current EP/Hour when EP is gained)
-shortUnits (Show EP in units. "3M" intead of "3000000")
+showMessage (Show current SA/Hour when SA is gained)
+shortUnits (Show SA in units. "3M" intead of "3000000")
 commaSeparators ("3,000,000" instead of "3000000"
 ```
 

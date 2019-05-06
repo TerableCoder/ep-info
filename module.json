@@ -1,15 +1,15 @@
 {
     "disableAutoUpdate": false,
-    "name": "ep-info",
+    "name": "sa-info",
     "author": "TerableCoder",
-    "description": "Show EP/Hour and other details",
+    "description": "Show SA/Hour and other details",
     "version": "5/13/2019", 
     "options": {
-        "niceName": "EP Info",
+        "niceName": "SA Info",
         "settingsVersion": 1,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"    
     },
-    "servers": ["https://raw.githubusercontent.com/TerableCoder/ep-info/master/"],
-    "supportUrl": "https://github.com/TerableCoder/ep-info/issues"
+    "servers": ["https://raw.githubusercontent.com/TerableCoder/sa-info/master/"],
+    "supportUrl": "https://github.com/TerableCoder/sa-info/issues"
 }

@@ -4,9 +4,9 @@
             "overwrite": false,
             "hash": "c096eb49d5b446086797cb54ecd5041c9d1c405091bfccfc4d6d878a01efbc69"
         },
-		"index.js": "73ef765ce53c32f2d213165876e12b0deeb8941b55a097eebdfeb7fa551c34b8",
-		"module.json": "843ee797920b0ac915a7f169aa1013c9221e9b0627c6be9c177412f095d74e5e",
-		"README.md": "1b9298e7236db84f5625135f721c6641058992eb5e18db287c252cb7e4418c08",
+		"index.js": "baa71434764fc2c488df9ef727e610bf9172d4dedc0219ceddfce5ce4cde407f",
+		"module.json": "48f60184af732a8d0a120a52b1df24bae41ea36822860a30656c346e19ca3a46",
+		"README.md": "8889114f41ff26909e7c0d7cdf3202d5cffe39d7b765d1ebcfdbfe8034f5b545",
 		"settings_migrator.js": "f5f23b860fd46d1bb6bc4d31449b683856882c8c449f53bb6695ca2f002f3701",
 		"protocol/S_RP_SKILL_POLISHING_EXP_INFO.1.def": "e1a6e97899c838a43ff9a3c22099ce17f8cb595fcaa07742d9080279defde8d7"
     },
