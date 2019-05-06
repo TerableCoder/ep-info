@@ -29,4 +29,4 @@ shortUnits (Show SA in units. "3M" intead of "3000000")
 commaSeparators ("3,000,000" instead of "3000000"
 ```
 
-![Screenshot](https://i.imgur.com/zn0xOBa.png)
+![Screenshot](https://i.imgur.com/iGIiexL.png)
