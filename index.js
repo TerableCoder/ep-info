@@ -84,14 +84,16 @@ module.exports = function SAInfo(mod){
     }
     
     function resetMod(){
-        playerEPOld = xp.pop();
-        xp = [];
         startTime = Date.now();
         playerExp = null;
+        if(xp.length) playerEPOld = xp.pop();
+		if(playerEPOld) playerEPOld.time = startTime;
+        xp = [];
     }
     
-	mod.game.on('enter_game', () => {
+	mod.hook('S_LOGIN', 13, (event) => {
         resetMod();
+		playerEPOld = null;
 	})
     
     mod.command.add(['sa', 'sainfo'], (arg) => {
