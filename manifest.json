@@ -11,6 +11,7 @@
 		"protocol/S_RP_SKILL_POLISHING_EXP_INFO.1.def": "e1a6e97899c838a43ff9a3c22099ce17f8cb595fcaa07742d9080279defde8d7"
     },
     "defs": {
+        "S_LOGIN": 13,
         "S_RP_SKILL_POLISHING_EXP_INFO": 1
     }
 }
