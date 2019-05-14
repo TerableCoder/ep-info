@@ -3,12 +3,12 @@
     "name": "sa-info",
     "author": "TerableCoder",
     "description": "Show SA/Hour and other details",
-    "version": "5/13/2019", 
+    "version": "5/13/2019",
     "options": {
         "niceName": "SA Info",
         "settingsVersion": 1,
         "settingsFile": "config.json",
-        "settingsMigrator": "settings_migrator.js"    
+        "settingsMigrator": "settings_migrator.js"
     },
     "servers": ["https://raw.githubusercontent.com/TerableCoder/sa-info/master/"],
     "supportUrl": "https://github.com/TerableCoder/sa-info/issues"
