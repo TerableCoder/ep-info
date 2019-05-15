@@ -3,9 +3,9 @@ Shows SA EXP/Hour and other details
 
 Put the "S_RP_SKILL_POLISHING_EXP_INFO.1.def" file into your tera-proxy\node_modules\tera-data\protocol\ folder.
 
-Get the Opcodes from https://github.com/TerableCoder/Tera-NA-Opcodes
+Get the Opcodes from https://github.com/TerableCoder/TerableOpcodes
 
-XP_Info revamped for SA https://github.com/TerableCoder/xp-info
+This is the xp-info module, but revamped for SA https://github.com/TerableCoder/xp-info
 
 ## Commands
 ### `sa`
